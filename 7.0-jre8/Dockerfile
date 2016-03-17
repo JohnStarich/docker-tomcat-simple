@@ -7,3 +7,6 @@ RUN apt-get update && \
     rm -rf /var/lib/apt/lists/* && \
     rm -rf /var/cache/oracle-jdk8-installer
 
+ENV JAVA_VER=8
+ENV JAVA_HOME=/usr/lib/jvm/java-8-oracle
+
